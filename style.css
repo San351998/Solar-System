@@ -1,0 +1,105 @@
+
+html,body{
+	height: 100%;
+	width: 100%;
+}
+.navbar{
+	position:absolute;
+	top: 20px;
+	z-index: 999;
+	position: fixed;
+	padding-top: 0px;
+}
+
+.navbar-nav a{
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-brand h2{
+	font-size:27px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: red;
+}
+
+.nav-link:hover{
+color:red !important;
+}
+.w10{
+	height: 100%;
+}
+@media only screen and (max-width: 767px){
+	.navbar-nav .ml-auto{
+		background: rgba(0,0,0,0.5);
+	}
+	.navbar-toggler{
+		padding: 1px 5px;
+		font-size: 17px;
+		line-height: 0.3;
+		background:#fff;
+	}
+}
+
+.carousel-item{
+	height: 100%
+	background:no-repeat center scroll;
+	background-size: cover;
+}
+.carousel-inner{
+	position: relative;
+}
+
+
+.mercury_info{
+	background-image: url(Mercury2.jpg);
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    
+}
+.venus_info{
+	background-image: url(Venus1.jpg);
+	background-size:cover;
+    height: 100%;
+    width: 100%;
+}
+
+.three{
+	position:absolute;
+	z-index:999;	
+}
+.Mars_info{
+	background-image: url(Mars5.jpg);
+	background-size:cover;
+    height: 100%;
+    width: 100%;
+}
+.Jupiter_info{
+	background-image: url(jupiter2.png);
+	background-size:cover;
+    height: 100%;
+    width: 100%;
+    color: orange;
+}
+.Saturn_info{
+	background-image: url(Saturn4.jpg);
+	background-size:cover;
+    height: 100%;
+    width: 100%;
+    color: pink;
+}
+.Uranus_info{
+	background-image: url(Uranus2.jpg);
+	background-size:cover;
+    height: 100%;
+    width: 100%;
+    color: blue;
+}
+.Neptune_info{
+	background-image: url(Neptune2.jpg);
+	background-size:cover;
+    height: 100%;
+    width: 100%;
+    color: blue;
+}
